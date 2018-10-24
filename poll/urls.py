@@ -18,8 +18,10 @@ from django.urls import path, include
 from . import views
 
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.current_datetime ),
     path('home/', views.home),
+    path('polls/', include('polls.urls'))
 ]
