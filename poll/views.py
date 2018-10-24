@@ -5,4 +5,6 @@ def current_datetime(request):
 	now = datetime.datetime.now()
 	html = f"It is now {now}"
 	return HttpResponse(html)
-# Create your views here.
+
+def hello(request):
+	return HttpResponse ("<h1> Hello WOoooooRld </h1>")
