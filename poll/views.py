@@ -8,3 +8,9 @@ def current_datetime(request):
 
 def hello(request):
 	return HttpResponse ("<h1> Hello WOoooooRld </h1>")
+
+def bye(request):
+	return HttpResponse("<h1> Goodbye </h1>")
+
+def news(request):
+	return HttpResponse("<h1> Fake News </h1>")

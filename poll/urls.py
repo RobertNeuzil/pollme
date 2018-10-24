@@ -21,5 +21,7 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.current_datetime ),
-    path('home/', views.hello),
+    path('hello/', views.hello),
+    path('bye/', views.bye),
+    path('news/', views.news),
 ]
