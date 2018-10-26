@@ -1,24 +1,23 @@
-{%  extends 'base.html' %}
+<!DOCTYPE html>
 {% load static %}
 
-
-{% block custom_css %} <link rel="stylesheet" type="text/css" href="{% static 'css/home_styles.css' %}"> {% endblock  %}
-{% block content %}
-
-<div class="container">
-	<div class="row">
-		<div class="col">
-			<div id="home-content">
-				<h1>Poll Me - Get Started</h1>
-				<h3> Your Voice Matters! </h3>
-				<hr>
-				<button type="button" class="btn btn-light btn-lg"> Get Started  </button>
-			</div>
-		</div>
-	</div>
-</div>
+<html>
 
 
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
 
-{% endblock  %}
+<body>
 
+  <h1> Hello World </h1>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
