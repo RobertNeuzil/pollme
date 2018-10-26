@@ -7,3 +7,8 @@ def home(request):
 	context = {'datetimenow': now}
 
 	return render(request, 'home.html', context)
+
+
+def pollhome(request):
+	context = {}
+	return render(request, 'pollhome.html', context)
